@@ -32,7 +32,7 @@
     .media img {
       display: flex;
       margin-top: 5px;
-      margin-left: 250px;
+      margin-left: 500px;
     }
     .video iframe {
       width: 668px;
@@ -54,9 +54,11 @@
     <title>Kelompok 3</title>
   </head>
   <body>
+    <!--Membuat Judul-->
     <div id="judul">
       <p>Resep Membuat Kimbab</p>
     </div>
+    <!--Memasukkan gambar-->
     <div class="media">
       <img
         src="https://asset-a.grid.id/crop/0x0:0x0/750x504/photo/2023/05/22/kimbab-803637_640jpg-20230522015949.jpg"
@@ -86,6 +88,7 @@
         Selatan.
       </p>
     </div>
+    <!--Membuat Table-->
     <table>
       <tr>
         <th>Bahan</th>
@@ -119,6 +122,7 @@
         <td>1 buah wortel</td>
       </tr>
     </table>
+    <!--Membuat List-->
     <div class="stepbystep">
       <p>Cara membuat:</p>
       <ol>
@@ -137,6 +141,7 @@
         </li>
       </ol>
     </div>
+    <!--Memasukan video-->
     <div class="video">
       <iframe
         src="https://www.youtube.com/embed/Y-Y9CXGRJPU"
@@ -151,14 +156,15 @@
         >
       </p>
     </div>
+    <!--Membuat forms-->
     <div class="request">
       <form>
-        <label for="fname">First Name :</label>
+        <label for="fname">First Name :</label><br>
         <input type="text" id="fname" name="fname" /><br /><br />
-        <label for="lname">Last Name :</label>
+        <label for="lname">Last Name :</label><br>
         <input type="text" id="lname" name="lname" /><br /><br />
-        <label for="rtutor">Masukan Tutorial Masak Selanjutnya </label>
-        <input type="text" id="rtutor" name="rtutor" /><br /><br />
+        <label for="rtutor">Komentar </label><br>
+        <textarea name="rtutor" rows="10" cols="30"></textarea><br><br>
         <input type="Submit" />
       </form>
     </div>
