@@ -31,6 +31,6 @@
 /*paragraf*/
 .paragraf p {
   justify-content: center;
-  margin-left: 15px;
-  margin-top: 15px;
+  padding-top: 15px;
+  padding-left: 15px;
 }
