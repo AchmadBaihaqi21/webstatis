@@ -1,14 +1,36 @@
 * {
   margin: 0px;
   padding: 0px;
+  text-decoration: none;
 }
 .navbar {
   background-color: brown;
   height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  color: white;
+  border: 2px dashed whitesmoke;
 }
-.navbar h2 {
+.navbar .judul h2 {
   padding-left: 15px;
+  font-size: 50px;
 }
-.navbar a {
-  text-align: end;
+.navbar-nav a {
+  color: white;
+  margin-right: 15px;
+  font-size: 20px;
+}
+.nirvana img {
+  margin-left: 35%;
+  margin-top: 50px;
+  width: 400px;
+  height: 250px;
+}
+/*paragraf*/
+.paragraf p {
+  justify-content: center;
+  margin-left: 15px;
+  margin-top: 15px;
 }
