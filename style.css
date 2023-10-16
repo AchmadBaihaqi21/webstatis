@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar {
+  background-color: brown;
+  height: 70px;
+}
+.navbar h2 {
+  padding-left: 15px;
+}
+.navbar a {
+  text-align: end;
+}

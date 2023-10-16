@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    table,
+    tr,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+  </style>
+  <body>
+    <div id="judul">
+      <p>Resep Membuat Kimbab</p>
+    </div>
+    <div class="media">
+      <img
+        src="https://asset-a.grid.id/crop/0x0:0x0/750x504/photo/2023/05/22/kimbab-803637_640jpg-20230522015949.jpg"
+        alt="foto"
+      />
+      <p>apa itu kimbab</p>
+    </div>
+    <table>
+      <tr>
+        <th>Bahan</th>
+        <th>Adonan Tepung Maizena</th>
+      </tr>
+      <tr>
+        <td>1 lembar nor</td>
+        <td>2 sdm tepung terigu</td>
+      </tr>
+      <tr>
+        <td>1 mangkuk nasi</td>
+        <td>2 sdm maizena</td>
+      </tr>
+      <tr>
+        <td>1 sdm minyak wijen</td>
+        <td>10 sdm air</td>
+      </tr>
+      <tr>
+        <td>1 sdm biji wijen</td>
+      </tr>
+    </table>
+    <!--membuat list-->
+    <div class="stepbystep">
+      <p>Cara Membuat kimbab :</p>
+      <ol>
+        <li>campur nasi, minyak wijen,biji wijen,dan garam,aduk rata</li>
+        <li>
+          goreng nugget dan telur dadar, sisihkan. potong wortel seukuran korek
+          api,lalu tumis
+        </li>
+        <li>
+          bagi nori menjadi dua, isi dengan nasi,telur,nugget,dan wortel. gulung
+          sampai rapat
+        </li>
+        <li>
+          campur adonan tempura sampai rata, masukan rata,masukan kimbab,lalu
+          goreng diminyak panas sampai matang
+        </li>
+      </ol>
+    </div>
+    <!--cara memasukan video-->
+    <div class="video">
+      <iframe
+        src="https://www.youtube.com/embed/Y-Y9CXGRJPU"
+        frameborder="0"
+        allowfullscreen=""
+      >
+      </iframe>
+    </div>
+    <!--form-->
+    <div id="form">
+      <form>
+        <label for="fname">First Name :</label>
+        <input type="text" id="fname" name="fname" /><br /><br />
+        <label for="lname">Last Name :</label>
+        <input type="text" id="lname" name="lname" /><br /><br />
+        <label for="gender">Jenis Kelamin :</label>
+        <input type="radio" name="jenis_kelamin" value="pria" />Pria
+        <input type="radio" name="jenis_kelamin" value="perempuan" />Perempuan
+        <br />
+        <label for="tamatan">Pendidikan</label>
+        <select name="tamatan" id="tamatan">
+          <option value="SD">SD</option>
+          <option value="SMP">SMP</option>
+          <option value="SMA">SMA</option>
+          <option value="S1">S1</option></select
+        ><br />
+        <label for="hobi">Hobi :</label>
+        <input type="checkbox" name="hobi" value="Renang" /> Renang
+        <input type="checkbox" name="hobi" value="Main Game" /> Main Game
+        <input type="checkbox" name="hobi" value="Futsal" /> Futsal
+        <br />
+        <input type="submit" />
+      </form>
+    </div>
+  </body>
+</html>
