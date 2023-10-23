@@ -1,0 +1,30 @@
+/*keseluran*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  width: 800px;
+  height: 130px;
+  margin-top: 5px;
+  outline-style: solid;
+  outline-color: orangered;
+  color: whitesmoke;
+  background-color: grey;
+}
+.container .judul h2 {
+  padding-top: 5px;
+}
+.container .navbar ul {
+  list-style-type: none;
+}
+.container .navbar li {
+  float: left;
+  padding: 20px;
+  padding-bottom: 10px;
+  background-color: white;
+  display: block;
+}
+.container .navbar a {
+  font-size: 18px;
+}
